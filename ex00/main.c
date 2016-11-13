@@ -10,6 +10,12 @@ void	checker(int i, int j)
 {
 
 }
+
+check to se if each line is the same size, go to  n ewline
+check to s: the total number of rows, # of newlines.
+send those parameters into the rush generators.
+check each rush against the output.
+
 */
 void	print_stdin(void)
 {
