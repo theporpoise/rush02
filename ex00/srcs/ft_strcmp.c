@@ -5,12 +5,10 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mgould <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/01 15:22:18 by mgould            #+#    #+#             */
-/*   Updated: 2016/11/13 15:21:32 by mgould           ###   ########.fr       */
+/*   Created: 2016/11/13 21:24:45 by mgould            #+#    #+#             */
+/*   Updated: 2016/11/13 21:24:48 by mgould           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
 {
@@ -24,8 +22,6 @@ int	ft_strcmp(char *s1, char *s2)
 		dif = s1[i] - s2[i];
 		if (s2[i] == '\0' || (dif != 0))
 		{
-			printf("s2[i] is %c, s1[i] is %c", s2[i], s1[i]);
-			printf("\ni is:%d\n", i);
 			return (dif);
 		}
 		i++;
