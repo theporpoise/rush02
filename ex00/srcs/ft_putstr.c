@@ -6,11 +6,11 @@
 /*   By: mgould <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/01 15:13:29 by mgould            #+#    #+#             */
-/*   Updated: 2016/11/13 10:37:23 by mgould           ###   ########.fr       */
+/*   Updated: 2016/11/13 18:42:00 by mgould           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
+#include "../ft_list.h"
 
 void	ft_putstr(char *str)
 {

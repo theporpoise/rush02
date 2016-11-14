@@ -62,7 +62,7 @@ int		main(void)
 	input_size(buf, &xy);
 	printf("x is %d, y is %d\n", xy[0], xy[1]);
 
-	r_string = rush00(xy[1], xy[0]);
+	r_string = rush04(xy[1], xy[0]);
 	printf("r_string is:\n%s", r_string);
 	if ((ft_strcmp(r_string, buf) == 0))
 	{
