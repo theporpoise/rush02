@@ -9,4 +9,5 @@ void	ft_putchar(char c);
 int		ft_strcmp(char *s1, char *s2);
 int		ft_strlen(char *str);
 void	ft_putstr(char *str);
+char	*rush00(int x, int y);
 #endif
